@@ -1,0 +1,93 @@
+# ---------------------
+# Node.js (frontend)
+# ---------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ---------------------
+# Python (backend)
+# ---------------------
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.pyo
+backend/*.pyd
+backend/venv/
+backend/env/
+backend/.venv/
+backend/ENV/
+backend/.mypy_cache/
+backend/.pytest_cache/
+
+# ---------------------
+# Build outputs
+# ---------------------
+build/
+dist/
+.out/
+coverage/
+*.egg-info/
+
+# ---------------------
+# Logs & reports
+# ---------------------
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.coveragerc
+coverage.xml
+*.py,cover
+
+# ---------------------
+# Environment & secrets
+# ---------------------
+.env
+.env.*
+.env.local
+.env.*.local
+
+# ---------------------
+# System files
+# ---------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---------------------
+# Machine learning / model files
+# ---------------------
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.h5
+*.safetensors
+*.weights
+*.joblib
+*.pkl
+*.tar.gz
+
+# ---------------------
+# Temporary
+# ---------------------
+tmp/
+*.tmp
+*.bak
+*.old
+
+# ---------------------
+# Docker / Render build cache
+# ---------------------
+*.log
+.dockerignore
+**/__pycache__/
+__pycache__/
